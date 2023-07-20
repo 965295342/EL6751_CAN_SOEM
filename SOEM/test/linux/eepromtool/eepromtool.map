@@ -1,0 +1,1009 @@
+由于文件 (符号) 而包含了归档成员
+
+/home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                              obj/linux/eepromtool.o (ec_BRD)
+/home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                              obj/linux/eepromtool.o (ec_slavecount)
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+/home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                              /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o) (secMAC)
+/home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+                              /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o) (oshw_htons)
+/home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                              /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o) (osal_usleep)
+
+按需库被包含以满足文件 (符号) 引用
+
+libc.so.6                     obj/linux/eepromtool.o (fflush@@GLIBC_2.2.5)
+libpthread.so.0               /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o) (pthread_create@@GLIBC_2.2.5)
+
+分配公共符号
+公共符号            大小              文件
+
+ecx_port            0xcb30            /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ecx_redport         0x6590            /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ebuf                0x8000            obj/linux/eepromtool.o
+os                  0x4               obj/linux/eepromtool.o
+ow                  0x2               obj/linux/eepromtool.o
+tend                0x10              obj/linux/eepromtool.o
+ec_DCtime           0x8               /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+tdif                0x10              obj/linux/eepromtool.o
+tstart              0x10              obj/linux/eepromtool.o
+slave               0x4               obj/linux/eepromtool.o
+alias               0x4               obj/linux/eepromtool.o
+sline               0x100             obj/linux/eepromtool.o
+ec_slavecount       0x4               /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ob                  0x1               obj/linux/eepromtool.o
+mode                0x4               obj/linux/eepromtool.o
+wkc                 0x4               obj/linux/eepromtool.o
+ec_group            0x270             /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ec_slave            0x10040           /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+
+舍弃的输入节
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .text          0x0000000000000000        0x0 obj/linux/eepromtool.o
+ .data          0x0000000000000000        0x0 obj/linux/eepromtool.o
+ .bss           0x0000000000000000        0x0 obj/linux/eepromtool.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/linux/eepromtool.o
+ .text          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .data          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .bss           0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_adddatagram
+                0x0000000000000000      0x1ae /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_BWR  0x0000000000000000       0xc8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_ARMW
+                0x0000000000000000      0x101 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FRMW
+                0x0000000000000000      0x101 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_APRDw
+                0x0000000000000000       0x7c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FPRD
+                0x0000000000000000      0x101 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FPRDw
+                0x0000000000000000       0x7c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_APWRw
+                0x0000000000000000       0x51 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FPWR
+                0x0000000000000000       0xc8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FPWRw
+                0x0000000000000000       0x51 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRW  0x0000000000000000      0x124 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRD  0x0000000000000000      0x124 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LWR  0x0000000000000000       0xc9 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRWDC
+                0x0000000000000000      0x23b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_setupdatagram
+                0x0000000000000000       0x6e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_adddatagram
+                0x0000000000000000       0x83 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_BWR   0x0000000000000000       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_ARMW  0x0000000000000000       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FRMW  0x0000000000000000       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APRDw
+                0x0000000000000000       0x73 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPRD  0x0000000000000000       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPRDw
+                0x0000000000000000       0x73 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APWRw
+                0x0000000000000000       0x45 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPWR  0x0000000000000000       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPWRw
+                0x0000000000000000       0x45 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRW   0x0000000000000000       0x40 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRD   0x0000000000000000       0x40 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LWR   0x0000000000000000       0x40 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRWDC
+                0x0000000000000000       0x61 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .data          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_find_adapters
+                0x0000000000000000       0x18 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_free_adapters
+                0x0000000000000000       0x1c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_pusherror
+                0x0000000000000000      0x11c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_poperror
+                0x0000000000000000       0xfd /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_iserror
+                0x0000000000000000       0x25 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_packeterror
+                0x0000000000000000       0xc1 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxerror
+                0x0000000000000000       0xa0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxemergencyerror
+                0x0000000000000000       0xed /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_init_redundant
+                0x0000000000000000      0x120 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siigetbyte
+                0x0000000000000000      0x2a9 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siifind
+                0x0000000000000000      0x1d4 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siistring
+                0x0000000000000000      0x1e8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siiFMMU
+                0x0000000000000000      0x226 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siiSM
+                0x0000000000000000      0x2c2 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siiSMnext
+                0x0000000000000000      0x249 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_siiPDO
+                0x0000000000000000      0x4e8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_FPRD_multi
+                0x0000000000000000      0x301 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readstate
+                0x0000000000000000      0x336 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writestate
+                0x0000000000000000      0x121 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_statecheck
+                0x0000000000000000      0x1da /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_nextmbxcnt
+                0x0000000000000000       0x24 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_clearmbx
+                0x0000000000000000       0x26 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxempty
+                0x0000000000000000      0x12c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxsend
+                0x0000000000000000      0x12d /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxreceive
+                0x0000000000000000      0x46f /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_esidump
+                0x0000000000000000      0x163 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readeeprom
+                0x0000000000000000       0x7e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writeeeprom
+                0x0000000000000000       0x8c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_eeprom2master
+                0x0000000000000000      0x181 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_eeprom2pdi
+                0x0000000000000000      0x12c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_eeprom_waitnotbusyFP
+                0x0000000000000000      0x113 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readeepromFP
+                0x0000000000000000      0x273 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writeeepromFP
+                0x0000000000000000      0x208 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readeeprom1
+                0x0000000000000000      0x15b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readeeprom2
+                0x0000000000000000       0xee /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_pushindex
+                0x0000000000000000       0xb3 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_pullindex
+                0x0000000000000000       0x56 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_send_processdata_group
+                0x0000000000000000      0x950 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_receive_processdata_group
+                0x0000000000000000      0x3a3 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_send_processdata
+                0x0000000000000000       0x20 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_receive_processdata
+                0x0000000000000000       0x28 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_pusherror
+                0x0000000000000000       0x21 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_poperror
+                0x0000000000000000       0x20 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_iserror
+                0x0000000000000000        0xd /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_packeterror
+                0x0000000000000000       0x46 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_init_redundant
+                0x0000000000000000       0x34 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siigetbyte
+                0x0000000000000000       0x2f /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siifind
+                0x0000000000000000       0x2f /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siistring
+                0x0000000000000000       0x3b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiFMMU
+                0x0000000000000000       0x2b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiSM
+                0x0000000000000000       0x2b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiSMnext
+                0x0000000000000000       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiPDO
+                0x0000000000000000       0x38 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readstate
+                0x0000000000000000       0x15 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writestate
+                0x0000000000000000       0x23 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_statecheck
+                0x0000000000000000       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxempty
+                0x0000000000000000       0x2b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxsend
+                0x0000000000000000       0x33 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxreceive
+                0x0000000000000000       0x33 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_esidump
+                0x0000000000000000       0x2c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom
+                0x0000000000000000       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writeeeprom
+                0x0000000000000000       0x44 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom2master
+                0x0000000000000000       0x23 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom2pdi
+                0x0000000000000000       0x23 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom_waitnotbusyAP
+                0x0000000000000000       0x33 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom_waitnotbusyFP
+                0x0000000000000000       0x33 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeepromFP
+                0x0000000000000000       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writeeepromFP
+                0x0000000000000000       0x44 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom1
+                0x0000000000000000       0x30 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom2
+                0x0000000000000000       0x2b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_send_processdata_group
+                0x0000000000000000       0x22 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_receive_processdata_group
+                0x0000000000000000       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_send_processdata
+                0x0000000000000000       0x13 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_receive_processdata
+                0x0000000000000000       0x1d /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .data          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .bss           0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .rodata        0x0000000000000000        0xc /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_waitinframe
+                0x0000000000000000       0x8b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_setupnic
+                0x0000000000000000       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_closenic
+                0x0000000000000000       0x15 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_getindex
+                0x0000000000000000       0x15 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_setbufstat
+                0x0000000000000000       0x26 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_outframe
+                0x0000000000000000       0x27 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_outframe_red
+                0x0000000000000000       0x1f /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_inframe
+                0x0000000000000000       0x27 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_waitinframe
+                0x0000000000000000       0x27 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_srconfirm
+                0x0000000000000000       0x27 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .data          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .bss           0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_htons
+                0x0000000000000000       0x26 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_ntohs
+                0x0000000000000000       0x26 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_find_adapters
+                0x0000000000000000      0x19e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_free_adapters
+                0x0000000000000000       0x67 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .text          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .data          0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .bss           0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_current_time
+                0x0000000000000000       0x57 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_time_diff
+                0x0000000000000000       0x75 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_malloc
+                0x0000000000000000       0x1b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_free
+                0x0000000000000000       0x1c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_thread_create
+                0x0000000000000000       0xa0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text.osal_thread_create_rt
+                0x0000000000000000       0xf8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+LOAD obj/linux/eepromtool.o
+START GROUP
+LOAD /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a
+LOAD /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a
+LOAD /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000238                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000238       0x1c
+ *(.interp)
+ .interp        0x0000000000000238       0x1c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x0000000000000254       0x20
+ .note.ABI-tag  0x0000000000000254       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000274       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000298       0x24
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000298       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000002c0      0x3a8
+ *(.dynsym)
+ .dynsym        0x00000000000002c0      0x3a8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000668      0x1d0
+ *(.dynstr)
+ .dynstr        0x0000000000000668      0x1d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000000838       0x4e
+ *(.gnu.version)
+ .gnu.version   0x0000000000000838       0x4e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000000888        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000888        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000000888       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000888       0x60 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x00000000000008e8      0x240
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text.input_bin
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.input_intelhex
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.output_bin
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.output_intelhex
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.eeprom_read
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.eeprom_write
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.eeprom_writealias
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.eepromtool
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.main
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.ec_BRD
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.ec_APRD
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.ec_APWR
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text     0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000008e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000008e8      0x180 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000a68       0x78 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000000ae0       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000af8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000000af8       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000000b10       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000000b28      0x300
+ *(.rela.plt)
+ .rela.plt      0x0000000000000b28      0x300 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000000e28       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000000e28       0x12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x0000000000000e28                _init
+ .init          0x0000000000000e3a        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000000e40      0x210
+ *(.plt)
+ .plt           0x0000000000000e40      0x210 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000001050        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000001050        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000001060     0x3787
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001060       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000001060                _start
+ *fill*         0x000000000000108b        0x5 
+ .text          0x0000000000001090       0xda /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .text.calc_crc
+                0x000000000000116a       0x71 obj/linux/eepromtool.o
+                0x000000000000116a                calc_crc
+ .text.SIIcrc   0x00000000000011db       0x79 obj/linux/eepromtool.o
+                0x00000000000011db                SIIcrc
+ .text.input_bin
+                0x0000000000001254       0x9e obj/linux/eepromtool.o
+                0x0000000000001254                input_bin
+ .text.input_intelhex
+                0x00000000000012f2      0x30d obj/linux/eepromtool.o
+                0x00000000000012f2                input_intelhex
+ .text.output_bin
+                0x00000000000015ff       0x89 obj/linux/eepromtool.o
+                0x00000000000015ff                output_bin
+ .text.output_intelhex
+                0x0000000000001688      0x175 obj/linux/eepromtool.o
+                0x0000000000001688                output_intelhex
+ .text.eeprom_read
+                0x00000000000017fd      0x356 obj/linux/eepromtool.o
+                0x00000000000017fd                eeprom_read
+ .text.eeprom_write
+                0x0000000000001b53      0x180 obj/linux/eepromtool.o
+                0x0000000000001b53                eeprom_write
+ .text.eeprom_writealias
+                0x0000000000001cd3      0x11c obj/linux/eepromtool.o
+                0x0000000000001cd3                eeprom_writealias
+ .text.eepromtool
+                0x0000000000001def      0x758 obj/linux/eepromtool.o
+                0x0000000000001def                eepromtool
+ .text.main     0x0000000000002547      0x226 obj/linux/eepromtool.o
+                0x0000000000002547                main
+ .text.ecx_writedatagramdata
+                0x000000000000276d       0x89 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_setupdatagram
+                0x00000000000027f6      0x118 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x00000000000027f6                ecx_setupdatagram
+ .text.ecx_BRD  0x000000000000290e      0x101 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000000290e                ecx_BRD
+ .text.ecx_APRD
+                0x0000000000002a0f      0x101 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x0000000000002a0f                ecx_APRD
+ .text.ecx_APWR
+                0x0000000000002b10       0xc8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x0000000000002b10                ecx_APWR
+ .text.ec_BRD   0x0000000000002bd8       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x0000000000002bd8                ec_BRD
+ .text.ec_APRD  0x0000000000002c2c       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x0000000000002c2c                ec_APRD
+ .text.ec_APWR  0x0000000000002c80       0x54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                0x0000000000002c80                ec_APWR
+ .text.ecx_init
+                0x0000000000002cd4       0x2e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000002cd4                ecx_init
+ .text.ecx_close
+                0x0000000000002d02       0x1f /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000002d02                ecx_close
+ .text.ecx_eeprom_waitnotbusyAP
+                0x0000000000002d21      0x113 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000002d21                ecx_eeprom_waitnotbusyAP
+ .text.ecx_readeepromAP
+                0x0000000000002e34      0x273 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000002e34                ecx_readeepromAP
+ .text.ecx_writeeepromAP
+                0x00000000000030a7      0x208 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000000030a7                ecx_writeeepromAP
+ .text.ec_init  0x00000000000032af       0x22 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000000032af                ec_init
+ .text.ec_close
+                0x00000000000032d1       0x16 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000000032d1                ec_close
+ .text.ec_readeepromAP
+                0x00000000000032e7       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000000032e7                ec_readeepromAP
+ .text.ec_writeeepromAP
+                0x0000000000003320       0x44 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000003320                ec_writeeepromAP
+ *fill*         0x0000000000003364        0xc 
+ .text          0x0000000000003370       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000003370                __libc_csu_init
+                0x00000000000033e0                __libc_csu_fini
+ .text.ecx_clear_rxbufstat
+                0x00000000000033e2       0x39 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_setupnic
+                0x000000000000341b      0x4fc /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000000341b                ecx_setupnic
+ .text.ecx_closenic
+                0x0000000000003917       0x68 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003917                ecx_closenic
+ .text.ec_setupheader
+                0x000000000000397f       0xba /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000000397f                ec_setupheader
+ .text.ecx_getindex
+                0x0000000000003a39       0xf9 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003a39                ecx_getindex
+ .text.ecx_setbufstat
+                0x0000000000003b32       0x5b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003b32                ecx_setbufstat
+ .text.ecx_outframe
+                0x0000000000003b8d       0xa5 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003b8d                ecx_outframe
+ .text.ecx_outframe_red
+                0x0000000000003c32      0x145 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003c32                ecx_outframe_red
+ .text.ecx_recvpkt
+                0x0000000000003d77       0x82 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_inframe
+                0x0000000000003df9      0x2fd /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000003df9                ecx_inframe
+ .text.ecx_waitinframe_red
+                0x00000000000040f6      0x361 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_srconfirm
+                0x0000000000004457       0xed /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000004457                ecx_srconfirm
+ .text.osal_usleep
+                0x0000000000004544       0x84 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                0x0000000000004544                osal_usleep
+ .text.osal_gettimeofday
+                0x00000000000045c8       0x8a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                0x00000000000045c8                osal_gettimeofday
+ .text.osal_timer_start
+                0x0000000000004652       0xf0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                0x0000000000004652                osal_timer_start
+ .text.osal_timer_is_expired
+                0x0000000000004742       0xa5 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                0x0000000000004742                osal_timer_is_expired
+ *(.gnu.warning)
+
+.fini           0x00000000000047e8        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000047e8        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x00000000000047e8                _fini
+ .fini          0x00000000000047ec        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00000000000047f8      0x554
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000000000047f8      0x525 obj/linux/eepromtool.o
+ *fill*         0x0000000000004d1d        0x3 
+ .rodata        0x0000000000004d20       0x2c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000004d4c      0x194
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000004d4c      0x194 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004d4c                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000004ee0      0x56c
+ *(.eh_frame)
+ .eh_frame      0x0000000000004ee0       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (松开之前的大小)
+ *fill*         0x0000000000004f10        0x0 
+ .eh_frame      0x0000000000004f10       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x0000000000004f50       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (松开之前的大小)
+ .eh_frame      0x0000000000004f68      0x120 obj/linux/eepromtool.o
+                                        0x138 (松开之前的大小)
+ .eh_frame      0x0000000000005088       0xe8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                                        0x460 (松开之前的大小)
+ .eh_frame      0x0000000000005170       0xe8 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                                        0x8c8 (松开之前的大小)
+ .eh_frame      0x0000000000005258       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (松开之前的大小)
+ .eh_frame      0x00000000000052b8      0x130 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                                        0x238 (松开之前的大小)
+ .eh_frame      0x00000000000053e8        0x0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+                                         0x80 (松开之前的大小)
+ .eh_frame      0x00000000000053e8       0x60 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                                        0x110 (松开之前的大小)
+ .eh_frame      0x0000000000005448        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000205cb0                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000205cb0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000205cb0        0x8
+                0x0000000000205cb0                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000205cb0        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                0x0000000000205cb8                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000205cb8        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000205cb8        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000205cc0        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000205cc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynamic        0x0000000000205cc0      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000205cc0      0x200 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000205cc0                _DYNAMIC
+
+.got            0x0000000000205ec0      0x140
+ *(.got.plt)
+ .got.plt       0x0000000000205ec0      0x118 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000205ec0                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000205fd8       0x28 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000206000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000206000       0xc0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000206000        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                0x0000000000206000                __dso_handle
+ *fill*         0x0000000000206008       0x18 
+ .data.rel.local
+                0x0000000000206020       0xa0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000206020                ecx_context
+
+.tm_clone_table
+                0x00000000002060c0        0x0
+ .tm_clone_table
+                0x00000000002060c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .tm_clone_table
+                0x00000000002060c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000002060c0                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000002060c0                . = .
+                0x00000000002060c0                __bss_start = .
+
+.bss            0x00000000002060c0    0x2d5a0
+ *(.dynbss)
+ .dynbss        0x00000000002060c0        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000002060c0                stdout@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000002060c8        0x1 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ *fill*         0x00000000002060c9       0x17 
+ .bss           0x00000000002060e0     0x2060 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000002060e0                EcatError
+ *(COMMON)
+ COMMON         0x0000000000208140     0x816c obj/linux/eepromtool.o
+                0x0000000000208140                ebuf
+                0x0000000000210140                os
+                0x0000000000210144                ow
+                0x0000000000210150                tend
+                0x0000000000210160                tdif
+                0x0000000000210170                tstart
+                0x0000000000210180                slave
+                0x0000000000210184                alias
+                0x00000000002101a0                sline
+                0x00000000002102a0                ob
+                0x00000000002102a4                mode
+                0x00000000002102a8                wkc
+ *fill*         0x00000000002102ac       0x14 
+ COMMON         0x00000000002102c0    0x233a0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000002102c0                ecx_port
+                0x000000000021ce00                ecx_redport
+                0x0000000000223390                ec_DCtime
+                0x0000000000223398                ec_slavecount
+                0x00000000002233a0                ec_group
+                0x0000000000223620                ec_slave
+                0x0000000000233660                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000233660                . = ALIGN (0x8)
+                0x0000000000233660                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000633660        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000633660                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000633660                . = ALIGN (0x8)
+                0x0000000000633660                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000633660                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x29
+ *(.comment)
+ .comment       0x0000000000000000       0x29 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                                         0x2a (松开之前的大小)
+ .comment       0x0000000000000029       0x2a obj/linux/eepromtool.o
+ .comment       0x0000000000000029       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .comment       0x0000000000000029       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .comment       0x0000000000000029       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .comment       0x0000000000000029       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .comment       0x0000000000000029       0x2a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+ .comment       0x0000000000000029       0x2a /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xb30
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xd0 obj/linux/eepromtool.o
+ .debug_aranges
+                0x00000000000000d0      0x270 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_aranges
+                0x0000000000000340      0x550 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_aranges
+                0x0000000000000890      0x180 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .debug_aranges
+                0x0000000000000a10       0x60 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .debug_aranges
+                0x0000000000000a70       0xc0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xb86b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x1b6e obj/linux/eepromtool.o
+ .debug_info    0x0000000000001b6e     0x279c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_info    0x000000000000430a     0x3b0b /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_info    0x0000000000007e15     0x1f54 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .debug_info    0x0000000000009d69     0x14b6 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .debug_info    0x000000000000b21f      0x64c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+
+.debug_abbrev   0x0000000000000000     0x102d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2d2 obj/linux/eepromtool.o
+ .debug_abbrev  0x00000000000002d2      0x2a5 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_abbrev  0x0000000000000577      0x39e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_abbrev  0x0000000000000915      0x350 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .debug_abbrev  0x0000000000000c65      0x24a /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .debug_abbrev  0x0000000000000eaf      0x17e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+
+.debug_line     0x0000000000000000     0x2967
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x6a3 obj/linux/eepromtool.o
+ .debug_line    0x00000000000006a3      0x660 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_line    0x0000000000000d03     0x107e /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_line    0x0000000000001d81      0x679 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .debug_line    0x00000000000023fa      0x26c /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .debug_line    0x0000000000002666      0x301 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x20f6
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xf01 obj/linux/eepromtool.o
+                                       0x10ae (松开之前的大小)
+ .debug_str     0x0000000000000f01      0x2f6 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+                                       0x11eb (松开之前的大小)
+ .debug_str     0x00000000000011f7      0x825 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+                                       0x1893 (松开之前的大小)
+ .debug_str     0x0000000000001a1c      0x4b1 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+                                       0x117c (松开之前的大小)
+ .debug_str     0x0000000000001ecd       0x93 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+                                        0xccf (松开之前的大小)
+ .debug_str     0x0000000000001f60      0x196 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+                                        0x41d (松开之前的大小)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xad0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xc0 obj/linux/eepromtool.o
+ .debug_ranges  0x00000000000000c0      0x260 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_ranges  0x0000000000000320      0x540 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_ranges  0x0000000000000860      0x170 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(nicdrv.o)
+ .debug_ranges  0x00000000000009d0       0x50 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/liboshw.a(oshw.o)
+ .debug_ranges  0x0000000000000a20       0xb0 /home/lx/SOEM_ALL/SOEM-1.3.1-2can/lib/linux/libosal.a(osal.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(eepromtool elf64-x86-64)

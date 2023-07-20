@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ethercatmain.h": "c",
+        "ethercatconfig.h": "c",
+        "multican.h": "c",
+        "cstdio": "c",
+        "inet.h": "c",
+        "ethercatcoe.h": "c",
+        "ethercatprint.h": "c",
+        "cstdint": "c",
+        "stdlib.h": "c"
+    }
+}
