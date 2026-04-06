@@ -369,7 +369,7 @@ int slave_setup(uint16_t slave)
     if (slave > ec_slavecount)
     {
         printf("slave %d do not exist\n", slave);
-        return;
+        return -1;
     }
     uint16_t c32_01, c33_01, c32_08, c33_08;
     uint32_t c32_02, c33_02, c33_03;
@@ -463,6 +463,7 @@ __uint32_t get_csv(__uint8_t (*ptr)[256], __uint16_t slave)
     if (fp == NULL)
     {
         fprintf(stderr, "open csv file error\n");
+        free(filePath);
         exit(EXIT_FAILURE);
     }
     char row[2048];
@@ -495,6 +496,7 @@ __uint32_t get_csv(__uint8_t (*ptr)[256], __uint16_t slave)
         // printf("\n");
     }
     fclose(fp);
+    free(filePath);
     return length;
 }
 

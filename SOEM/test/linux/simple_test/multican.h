@@ -1,3 +1,6 @@
+#ifndef MULTICAN_H
+#define MULTICAN_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -16,6 +19,7 @@
 #include "ethercatfoe.h"
 #include "ethercatconfig.h"
 #include "ethercatprint.h"
+#include "sendUdp.h"
 #define pi 3.141592
 #define EC_TIMEOUTMON 500
 //#define AXIS_UPDATE_CYCLE 2
@@ -62,8 +66,6 @@ int udp_socket_fd;
 //struct sockaddr_in dest_addr;
 float _udp_msg[128]; // 向matlab发送的single数组
 
-uint8_t init_udp(int port);
-void sendUdpMsg();
 uint8_t readData[8][8];
 // test
 
@@ -93,3 +95,5 @@ static uint8_t sub_addr[] = {
 
 static uint8 reg0x1c12[] = {
     0x02, 00, 00, 0x16, 0x01, 0x16};
+
+#endif /* MULTICAN_H */
